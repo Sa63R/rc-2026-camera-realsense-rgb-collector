@@ -1,0 +1,43 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# IDE and operating-system files
+.idea/
+.vscode/
+.DS_Store
+
+# Capture outputs and historical dataset directory conventions
+captures/
+data/
+dataset/
+train/
+train[0-9]*/
+real[0-9]*/
+fake[0-9]*/
+olddataset/
+
+# Raw visual/depth assets and archives: review before force-adding anything
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tif
+*.tiff
+*.bag
+*.npy
+*.npz
+*.pcd
+*.ply
+*.zip
+*.7z
+*.tar
+*.tar.gz
+
+# Locally generated inventory files
+manifest*.csv
+manifest*.json

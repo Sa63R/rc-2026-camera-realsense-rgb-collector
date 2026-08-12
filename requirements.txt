@@ -1,0 +1,5 @@
+# NumPy 2 requires wheels compiled against its newer C ABI. Keep the broadly
+# compatible 1.x line until the selected OpenCV/pyrealsense2 builds are tested.
+numpy>=1.24,<2
+opencv-python>=4.8,<5
+pyrealsense2>=2.54
